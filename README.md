@@ -1,2 +1,2 @@
 # FizzBuzz
-Son ejecicios FizzBuzz para familiarizarse con Java
+Ejercicio FizzBuzz además de otros para  familiarizarse con Js entre otros
