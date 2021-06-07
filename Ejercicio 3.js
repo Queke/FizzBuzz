@@ -61,11 +61,33 @@ let estudiantes = [
 for(let i=0;i<estudiantes.length;i++){
    console.log(estudiantes[i].nombre, estudiantes[i].nota)
 }
+
 paso()
+
 //esta echo para vectores 
 for (let estudiante of estudiantes) {
     console.log(estudiante.nombre, estudiante.nota)
+    // idealmente utilizar cuando no se tome en cuenta el valor de "i"
 }
+paso()
+let estudianteAux = {
+    nombre: 'Estudiante Aux',
+    nota: 5
+}
+
+for (const key in estudianteAux) {
+    console.log(key, estudianteAux[key])
+}
+
+paso()
+paso()
+
+const variable = 50 // lo que hace const es definir una constante
+{
+    //esto es un scope para definicioón de varibles u otras cosas
+}
+
+console.log(variable)
 
 
 
